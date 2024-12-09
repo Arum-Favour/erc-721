@@ -1025,11 +1025,11 @@
 			]
 		},
 		"contracts/Web3Builders.sol": {
-			"keccak256": "0x1e14335587be7f4dd2ace8f9c352ed66b9bf0c441437c1b86d20e4c682b30067",
+			"keccak256": "0xab6e75eaa41633719cde89b8d00545ba83c7b057bf3a4bd32157e4b5735a0e0a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4353ace40ab18b190b7b45ef033f8409e255753916f6f3b52fef29d794a20caf",
-				"dweb:/ipfs/QmUTvUzqigb1u4fgJqYDbFNWYgcjj8zwP6SPXThGcqGkrm"
+				"bzz-raw://24588494ee221961b5816693701d0d11765f51c561a2ab6c82235be88589e727",
+				"dweb:/ipfs/QmZ3Kms6LxpC9ZTetAmwVrVAMjuFsk9zBGnEZR7WiGmAEF"
 			]
 		}
 	},

@@ -9,6 +9,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Kingsx is ERC721, ERC721Enumerable, ERC721Pausable, Ownable {
     uint256 private _nextTokenId;
+    uint256 maxSupply = 1;
 
     constructor(address initialOwner)
         ERC721("Kingsx", "KNX")
@@ -29,6 +30,7 @@ contract Kingsx is ERC721, ERC721Enumerable, ERC721Pausable, Ownable {
 
     function publicMint() public payable  {
         require(msg.value == 0.01 ether, "Not enough funds");
+        require(totalSupply() < maxSupply, "We Sold Out!");
         uint256 tokenId = _nextTokenId++;
         _safeMint(msg.sender, tokenId);
     }
