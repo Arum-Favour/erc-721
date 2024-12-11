@@ -59,10 +59,16 @@ contract Kingsx is ERC721, ERC721Enumerable, ERC721Pausable, Ownable {
        }
     }
 
-    function internalMint() internal() {
+    function internalMint() internal {
          require(totalSupply() < maxSupply, "We Sold Out!");
          uint256 tokenId = _nextTokenId++;
         _safeMint(msg.sender, tokenId);
+    }
+
+    function withdraw(address _addr)external onlyOwner{
+        // get the balance of the contract
+        uint256 balance = address(this).balance;
+        payable(_addr).transfer(balance);
     }
 
     // The following functions are overrides required by Solidity.

@@ -752,6 +752,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -1108,11 +1121,11 @@
 			]
 		},
 		"contracts/Web3Builders.sol": {
-			"keccak256": "0xdbf0fa85cec61ded315ce01893f68698d0f197b9d9275ed4ddc6223b98a69831",
+			"keccak256": "0x1ad2ffcc08413dfc05d80cb3e3da7a73f030215542ff2115fae937742cfe9734",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9dc6c95bf00df6dbb5c42d77c15b32cce1c7a751fdbb80640f9daccb9908b8f6",
-				"dweb:/ipfs/QmeEn55BHzrLPAGPcZF5z4ZnPcnTDA8LYeVxFWFYB4YF1R"
+				"bzz-raw://c157f05a67d533ef9470a8d4baf653f9fda861cc7493c9992a4e0f34dd464c02",
+				"dweb:/ipfs/QmNLpSX5sZxHbdQrnwDmqgfZXTkd2BomHeoPkc4CmAy5it"
 			]
 		}
 	},
